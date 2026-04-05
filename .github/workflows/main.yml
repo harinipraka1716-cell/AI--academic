@@ -50,3 +50,4 @@ jobs:
 
       - name: Check backend imports
         run: python -c "import main"
+        CI only run when push happens
